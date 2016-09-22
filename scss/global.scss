@@ -1,0 +1,38 @@
+@import "normalize";
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+#wrap {
+  max-width: 36em;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.error {
+  color: crimson;
+}
+.hint {
+  color: green;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+#userCard {
+  clear: both;
+  overflow: hidden;
+  aside {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+  }
+  article {
+    
+  }
+}

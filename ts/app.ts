@@ -10,7 +10,8 @@ const apiSearch = "https://api.github.com/search/";
 let userFieldVal = "";
 
 class User {
-  constructor(usr: Object = {}) {
+  usr: any;
+  constructor(usr) {
     this.usr = usr;
   }
   public buildLayout() {
@@ -56,7 +57,7 @@ jQuery(document).ready(function($){
   form.onsubmit = (e) => {
     e.preventDefault();
 
-    userFieldVal = userField.value.toString();
+    userFieldVal = (userField as any).value.toString();
     messageEl.innerHTML = "";
 
     if (userFieldVal == "" || !userFieldVal) {

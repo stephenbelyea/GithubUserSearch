@@ -13,7 +13,7 @@
     "url": "https://github.com/stephenbelyea/Homebrew/issues"
   },
   "scripts": {
-    "start": "typings install && gulp"
+    "start": "gulp"
   },
   "homepage": "https://github.com/stephenbelyea/Homebrew#readme",
   "devDependencies": {

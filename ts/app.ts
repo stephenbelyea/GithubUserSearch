@@ -73,7 +73,7 @@ class BuildView {
       this.doSectionTitle(false);
     }
     if (!this.repo.private) {
-      let forked = (this.repo.fork)? "FORK | " : "SOURCE | ";
+      let forked = (this.repo.fork)? "FORKED | " : "OWNER | ";
       let desc = (this.repo.description)? this.repo.description : "No description";
       let repoItem = document.createElement("div");
       let dateCreated = this.repo.created_at.split("T");

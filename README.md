@@ -10,6 +10,6 @@ You will need the following tools installed globally to run the project.
 ## Getting Started
 1. Pull down the repo.
 2. Open your bash terminal and navigate to the project root.
-3. Run `npm install && typings install`.
+3. Run `npm install`.
 4. Run `npm start` to have gulp build and watch the project.
 5. Search for a GitHub user.

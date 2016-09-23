@@ -13,11 +13,10 @@
     "url": "https://github.com/stephenbelyea/Homebrew/issues"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "typings install && gulp"
   },
   "homepage": "https://github.com/stephenbelyea/Homebrew#readme",
   "devDependencies": {
-    "bower": "^1.7.7",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
